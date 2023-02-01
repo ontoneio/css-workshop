@@ -1,0 +1,30 @@
+---
+import Layout from './Layout.astro';
+
+---
+<Layout>
+  
+  <article class="">
+    <section>
+        <slot name="left" />
+    </section>
+    
+    <section>
+        <slot name="right" />
+    </section>
+  </article>
+
+</Layout>
+
+<style>
+article {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+article > section {
+  margin: 0 1rem;
+  width: 100%;
+  padding: 0 4rem;
+}
+</style>

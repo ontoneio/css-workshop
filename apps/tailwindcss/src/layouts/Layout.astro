@@ -1,0 +1,26 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>tailwind</title>
+		<script is:inline src="/dist/js/uswds-init.min.js"></script>
+		<link rel="stylesheet" href="/dist/css/uswds.css" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	</head>
+	<body>
+		<slot />
+		<script is:inline src="/dist/js/uswds.min.js"></script>
+	</body>
+</html>
+
+<style is:global>
+	:not(:defined) {
+    visibility: hidden;
+}
+</style>

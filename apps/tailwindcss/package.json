@@ -1,0 +1,26 @@
+{
+  "name": "tailwindcss",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^2.0.1",
+    "jsdom": "^21.1.0",
+    "mq-polyfill": "^1.1.8",
+    "sass-embedded": "^1.57.1",
+    "sass-true": "^7.0.0",
+    "sinon": "^15.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^0.0.1"
+  }
+}
